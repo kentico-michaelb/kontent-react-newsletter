@@ -2,37 +2,79 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #231F20;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(16px + 2vmin);
   color: white;
+}
+
+.App-header span{
+  font-size: calc(6px + 2vmin);
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* End CRA styles*/
+body {
+  background-color:#231F20;
 }
+
+.Today-col {
+  width: 38%;
+  min-height: 400px;
+	padding: 1%;
+	background: #D3D2D2;
+	margin-left: auto;    /*   These are the    */
+  margin-right: auto; /* important lines! */
+  text-align: left;
+  float:left;
+}
+
+.Scheduling-col {
+  width: 28%;
+	min-height: 400px;
+	padding: 1%;
+	background: #E9E8E8;
+	margin-left: auto;    /*   These are the    */
+  margin-right: auto; /* important lines! */
+  text-align: left;
+  float:left;
+}
+
+.Upcoming-col {
+  width: 28%;
+	min-height: 400px;
+	padding: 1%;
+	background: #918F8F;
+	margin-left: auto;    /*   These are the    */
+  margin-right: auto; /* important lines! */
+  text-align: left;
+  float:left;
+}
+
+.main-header {
+  padding-bottom:20px;
+  text-align:left;
+  font-size: calc(10px + 2vmin);
+  font-family: "GT Walsheim", sans-serif;
+}
+
+.section-header {
+  padding-top:20px;
+  text-align:left;
+  font-size: calc(6px + 2vmin);
+  font-family: "GT Walsheim", sans-serif;
+  text-decoration: underline;
+}
+
+.period-style {
+  color:#F05A22;
+}
+
